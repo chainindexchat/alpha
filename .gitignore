@@ -35,6 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 
 .turbo
-.env
-public
-Dockerfile
+**/*/.env
+.env*
+!.env.template
