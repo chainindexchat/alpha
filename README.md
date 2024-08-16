@@ -1,35 +1,5 @@
-# Starter Next.js TypeScript
+## ChainIndexChat
 
-Start a new project on Next.js. This starter template consists of a connect wallet button and wallet integration.
-      
-## Getting Started
+ChainIndexChat is a natural language to SQL chat interface for Cardano. There are two major components of the system, the chat application, and an on chain JWT authentication scheme.
 
-Start project locally using CLI:
-
-```bash
-npx create-mesh-app starter-next-ts-template
-```
-
-Start your project on [Demeter](https://demeter.run/):
-
-[![Code in Cardano Workspace](https://demeter.run/code/badge.svg)](https://demeter.run/code?repository=https://github.com/MeshJS/starter-next-ts-template.git&template=typescript)
-
-## Learn More
-
-### [React components and hooks](https://meshjs.dev/react)
-
-Frontend components for wallet connections, and useful React hooks to getting wallet states - Mesh provides everything you need to bring your Web3 user interface to life.
-
-### [APIs](https://meshjs.dev/apis)
-
-From wallet integrations to transaction builders, Mesh makes Web3 development easy with reliable, scalable, and well-engineered APIs & developer tools.
-
-### [Guides](https://meshjs.dev/guides)
-
-Whether you are new to web development or a seasoned blockchain full-stack developer, these guides will help you get started.
-
-## Connect with us
-
-Follow us on [Twitter](https://twitter.com/meshsdk) for updates.
-
-Join our [Discord](https://discord.gg/Z6AH9dahdH) for any questions and suggestions.
+ChainIndexChat is a chat application that enables you to query the blockchain using natural language. The frontend is backed by a custom koios instance, open source LLMs, db-sync, and cardano-node. The prototype maps SQL from simple questions like, What network am I on? To more complex questions like, how many transactions were processed by a script within a timeframe? For the hackathon, the SQL is reported directly in the chat, although a data explorer interface Is coming soon.
